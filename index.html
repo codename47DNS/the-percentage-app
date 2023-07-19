@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percent Calculator - calculate percent</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+    <script src="script/jquery.js"></script>
+</head>
+<body>
+    <div id="webpage">
+        <div class="loader-con-cover">
+            <div class="loader-con">
+                <div id="rec-1"></div>
+                <div id="rec-2"></div>
+
+                <br>
+
+                <div id="rec-3"></div>
+                <div id="rec-4"></div>
+            </div>
+        </div>
+
+        <header>
+            <br>
+            <h1 id="app-name"><img src="img/outline_calculate_black_24dp.png" alt="Calc_c"> 
+                Percent Calculator</h1>
+        </header>
+
+        <br><br>
+        <section align="center">
+            <div class="tab-con">
+                <button class="type-btn" name="type-i">Type I</button>
+                <button class="type-btn" name="type-ii">Type II</button>
+                <button class="type-btn" name="type-iii">Type III</button>
+                <button class="type-btn" name="type-iv">Type IV</button>
+            </div>
+
+            <br>
+
+            <center>
+            <div class="display-con">
+                <div class="hide" id="type-i">
+                    <br><br>
+                    <h1>Percentage Type I</h1> <br><br>
+                    <input type="number" placeholder="Type Number"> <br> <br>
+                    <input type="number" placeholder="Type Percent"> <br> <br> <br>
+                    <input type="button" value="Get Result">
+
+                    <div>
+                    <p class="result"></p>
+                </div>
+                </div>
+
+                <div class="hide" id="type-ii">
+                    <br><br>
+                    <h1>Percentage Type II</h1> <br><br>
+                    <input type="number" placeholder="Type Number"> <br> <br>
+                    <input type="number" placeholder="Type Percent"> <br> <br> <br>
+                    <input type="button" value="Get Result">
+
+                    <p class="result"></p>
+                </div>
+
+                <div class="hide" id="type-iii">
+                    <br><br>
+                    <h1>Percentage Type III</h1> <br><br>
+                    <input type="number" placeholder="Type Number"> <br> <br>
+                    <input type="number" placeholder="Type Percent"> <br> <br> <br>
+                    <input type="button" value="Get Result">
+
+                    <p class="result"></p>
+                </div>
+
+                <div class="hide" id="type-iv">
+                    <br><br>
+                    <h1>Percentage Type IV</h1> <br><br>
+                    <input type="number" placeholder="Type Number"> <br> <br>
+                    <input type="number" placeholder="Type Percent"> <br> <br> <br>
+                    <input type="button" value="Get Result">
+
+                    <p class="result"></p>
+                </div>
+            </div>
+            </center>
+        </section>
+
+        <br><br>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
